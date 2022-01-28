@@ -2861,15 +2861,15 @@ header.reset .menu-btn div {
 }
 
 #brand04 .section-b04 .swiper-slide.slide1:before {
-  content: "Hair Skin Biome(H)";
-}
-
-#brand04 .section-b04 .swiper-slide.slide2:before {
   content: "엑소좀분리";
 }
 
-#brand04 .section-b04 .swiper-slide.slide3:before {
+#brand04 .section-b04 .swiper-slide.slide2:before {
   content: "탄성 리포좀";
+}
+
+#brand04 .section-b04 .swiper-slide.slide3:before {
+  content: "Hair Skin Biome(H)";
 }
 
 #brand04 .section-b04 .swiper-slide.swiper-slide-active:before, #brand04 .section-b04 .swiper-slide.swiper-slide-active:after {
@@ -7842,7 +7842,6 @@ label[for="allAgree"] .label-txt {
 
 #cibi .section-cibi .cont-top {
   text-align: center;
-  margin-bottom: 55px;
 }
 
 #cibi .section-cibi .cont-top .cibi-tab {
