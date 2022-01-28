@@ -698,6 +698,7 @@ header.reset .menu-btn div {
 
 #main .section1 .swiper-container .swiper-slide .swiper-cont-name span {
   font-size: 2rem;
+  letter-spacing: 0.03em;
 }
 
 #main .section1 .swiper-container .swiper-slide .swiper-cont-description {
@@ -8435,7 +8436,7 @@ footer .f a.line:after, footer .f span.line:after {
 }
 
 footer .f a.f-copy, footer .f span.f-copy {
-  color: #7d7d7d;
+  color: #ccc;
   opacity: 1;
 }
 
