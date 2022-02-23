@@ -2006,6 +2006,10 @@ header.reset .menu-btn div {
   display: block;
 }
 
+.brand .content2-box .long-cont {
+  margin-bottom: 55px;
+}
+
 .brand .content2-box .img-box {
   margin-bottom: 30px;
 }
@@ -2025,6 +2029,13 @@ header.reset .menu-btn div {
 .brand .content2-box .cont-sub-tit {
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+.brand .content2-box .cont-sub-tit2 {
+  font-size: 1.8rem;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.3;
 }
 
 .brand .content2-box .txt-box .description {
@@ -2367,6 +2378,10 @@ header.reset .menu-btn div {
   margin-bottom: 55px;
 }
 
+#brand02 .section-b02 .b02-cont1 .cont1-1 .long-cont {
+  margin-bottom: 55px;
+}
+
 #brand02 .section-b02 .b02-cont1 .cont1-1 .img-box {
   margin-bottom: 30px;
 }
@@ -2386,6 +2401,13 @@ header.reset .menu-btn div {
 #brand02 .section-b02 .b02-cont1 .cont1-1 .cont-sub-tit {
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+#brand02 .section-b02 .b02-cont1 .cont1-1 .cont-sub-tit2 {
+  font-size: 1.8rem;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.3;
 }
 
 #brand02 .section-b02 .b02-cont1 .cont1-1 .txt-box .description {
@@ -2495,6 +2517,10 @@ header.reset .menu-btn div {
   margin-bottom: 55px;
 }
 
+#brand02 .section-b02 .b02-cont2 .cont2-1 .long-cont {
+  margin-bottom: 55px;
+}
+
 #brand02 .section-b02 .b02-cont2 .cont2-1 .img-box {
   margin-bottom: 30px;
 }
@@ -2514,6 +2540,13 @@ header.reset .menu-btn div {
 #brand02 .section-b02 .b02-cont2 .cont2-1 .cont-sub-tit {
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+#brand02 .section-b02 .b02-cont2 .cont2-1 .cont-sub-tit2 {
+  font-size: 1.8rem;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.3;
 }
 
 #brand02 .section-b02 .b02-cont2 .cont2-1 .txt-box .description {
@@ -2580,6 +2613,10 @@ header.reset .menu-btn div {
   margin-bottom: 55px;
 }
 
+#brand02 .section-b02 .b02-cont3 .cont3-1 .long-cont {
+  margin-bottom: 55px;
+}
+
 #brand02 .section-b02 .b02-cont3 .cont3-1 .img-box {
   margin-bottom: 30px;
 }
@@ -2599,6 +2636,13 @@ header.reset .menu-btn div {
 #brand02 .section-b02 .b02-cont3 .cont3-1 .cont-sub-tit {
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+#brand02 .section-b02 .b02-cont3 .cont3-1 .cont-sub-tit2 {
+  font-size: 1.8rem;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.3;
 }
 
 #brand02 .section-b02 .b02-cont3 .cont3-1 .txt-box .description {
@@ -2654,6 +2698,10 @@ header.reset .menu-btn div {
   margin-bottom: 55px;
 }
 
+#brand02 .section-b02 .b02-cont4 .cont4-1 .long-cont {
+  margin-bottom: 55px;
+}
+
 #brand02 .section-b02 .b02-cont4 .cont4-1 .img-box {
   margin-bottom: 30px;
 }
@@ -2673,6 +2721,13 @@ header.reset .menu-btn div {
 #brand02 .section-b02 .b02-cont4 .cont4-1 .cont-sub-tit {
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+#brand02 .section-b02 .b02-cont4 .cont4-1 .cont-sub-tit2 {
+  font-size: 1.8rem;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.3;
 }
 
 #brand02 .section-b02 .b02-cont4 .cont4-1 .txt-box .description {
@@ -2765,12 +2820,21 @@ header.reset .menu-btn div {
 }
 
 #brand03 .section-b03 .b03-tit-box h3 {
-  margin-bottom: 7px;
+  margin-bottom: 13px;
 }
 
 #brand03 .section-b03 .b03-tit-box p {
   font-size: 1.5rem;
   font-weight: 300;
+  line-height: 1.3;
+}
+
+#brand03 .section-b03 .b03-tit-box p strong {
+  color: #43695c;
+}
+
+#brand03 .section-b03 .b03-content-box {
+  margin-bottom: 100px;
 }
 
 /* brand04 */

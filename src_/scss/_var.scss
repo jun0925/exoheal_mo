@@ -593,6 +593,10 @@ $opacity10 : 1;
 @mixin brandCont() {
     margin-bottom: $margin55px;
 
+    .long-cont {
+        margin-bottom: $margin55px;
+    }
+
     .img-box {
         margin-bottom: 30px;
     }
@@ -612,6 +616,13 @@ $opacity10 : 1;
     .cont-sub-tit {
         font-size: 1.5rem;
         font-weight: 300;
+    }
+
+    .cont-sub-tit2 {
+        font-size: 1.8rem;
+        text-align: left;
+        margin-top: 20px;
+        line-height: 1.3;
     }
 
     .txt-box {

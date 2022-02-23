@@ -459,12 +459,21 @@ $ballTop: -65px;
         margin-bottom: 40px;
 
         h3 {
-            margin-bottom: 7px;
+            margin-bottom: 13px;
         }
         p {
             font-size: 1.5rem;
             font-weight: $fw-light;
+            line-height: 1.3;
+
+            strong {
+                color: $green;
+            }
         }
+    }
+
+    .b03-content-box {
+        margin-bottom: 100px;
     }
 }
 /* brand04 */
