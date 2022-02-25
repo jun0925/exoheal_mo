@@ -78,7 +78,8 @@ $ballTop: -65px;
         }
 
         &.cont1 { 
-
+            position: relative;
+            
             &:before {
                 content: " ";
                 display: block;

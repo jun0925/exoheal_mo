@@ -2116,6 +2116,7 @@ header.reset .menu-btn div {
 }
 
 #brand01 .section-b01 .b01-cont.cont1 {
+  position: relative;
   background-attachment: fixed;
 }
 
