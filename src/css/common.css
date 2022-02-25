@@ -1922,7 +1922,6 @@ header.reset .menu-btn div {
 .brand .tab-outer #tabSwiper {
   overflow: visible;
   border-bottom: 1px solid #000;
-  padding-bottom: 20px;
 }
 
 .brand .tab-outer #tabSwiper .link-tab li {
@@ -1935,6 +1934,8 @@ header.reset .menu-btn div {
   color: #959595;
   position: relative;
   white-space: nowrap;
+  display: block;
+  padding-bottom: 20px;
 }
 
 .brand .tab-outer #tabSwiper .link-tab li a:after {
@@ -1945,8 +1946,8 @@ header.reset .menu-btn div {
   background: #43695c;
   border-radius: 50%;
   position: absolute;
-  top: 172%;
   left: 50%;
+  bottom: -3px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -4010,7 +4011,6 @@ header.reset .menu-btn div {
 #use .tab-outer #tabSwiper {
   overflow: visible;
   border-bottom: 1px solid #000;
-  padding-bottom: 20px;
 }
 
 #use .tab-outer #tabSwiper .link-tab li {
@@ -4023,6 +4023,8 @@ header.reset .menu-btn div {
   color: #959595;
   position: relative;
   white-space: nowrap;
+  display: block;
+  padding-bottom: 20px;
 }
 
 #use .tab-outer #tabSwiper .link-tab li a:after {
@@ -4033,8 +4035,8 @@ header.reset .menu-btn div {
   background: #43695c;
   border-radius: 50%;
   position: absolute;
-  top: 172%;
   left: 50%;
+  bottom: -3px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -4957,7 +4959,6 @@ header.reset .menu-btn div {
 .spt .tab-outer #tabSwiper {
   overflow: visible;
   border-bottom: 1px solid #000;
-  padding-bottom: 20px;
 }
 
 .spt .tab-outer #tabSwiper .link-tab li {
@@ -4970,6 +4971,8 @@ header.reset .menu-btn div {
   color: #959595;
   position: relative;
   white-space: nowrap;
+  display: block;
+  padding-bottom: 20px;
 }
 
 .spt .tab-outer #tabSwiper .link-tab li a:after {
@@ -4980,8 +4983,8 @@ header.reset .menu-btn div {
   background: #43695c;
   border-radius: 50%;
   position: absolute;
-  top: 172%;
   left: 50%;
+  bottom: -3px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -5188,7 +5191,6 @@ header.reset .menu-btn div {
 #kobeas .kobeas-member-section .tab-outer #tabSwiper {
   overflow: visible;
   border-bottom: 1px solid #000;
-  padding-bottom: 20px;
 }
 
 #kobeas .kobeas-member-section .tab-outer #tabSwiper .link-tab li {
@@ -5201,6 +5203,8 @@ header.reset .menu-btn div {
   color: #959595;
   position: relative;
   white-space: nowrap;
+  display: block;
+  padding-bottom: 20px;
 }
 
 #kobeas .kobeas-member-section .tab-outer #tabSwiper .link-tab li a:after {
@@ -5211,8 +5215,8 @@ header.reset .menu-btn div {
   background: #43695c;
   border-radius: 50%;
   position: absolute;
-  top: 172%;
   left: 50%;
+  bottom: -3px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -5528,7 +5532,6 @@ header.reset .menu-btn div {
 .section-news .tab-outer #tabSwiper {
   overflow: visible;
   border-bottom: 1px solid #000;
-  padding-bottom: 20px;
 }
 
 .section-news .tab-outer #tabSwiper .link-tab li {
@@ -5541,6 +5544,8 @@ header.reset .menu-btn div {
   color: #959595;
   position: relative;
   white-space: nowrap;
+  display: block;
+  padding-bottom: 20px;
 }
 
 .section-news .tab-outer #tabSwiper .link-tab li a:after {
@@ -5551,8 +5556,8 @@ header.reset .menu-btn div {
   background: #43695c;
   border-radius: 50%;
   position: absolute;
-  top: 172%;
   left: 50%;
+  bottom: -3px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -5890,7 +5895,6 @@ header.reset .menu-btn div {
 .section-awards .tab-outer #tabSwiper {
   overflow: visible;
   border-bottom: 1px solid #000;
-  padding-bottom: 20px;
 }
 
 .section-awards .tab-outer #tabSwiper .link-tab li {
@@ -5903,6 +5907,8 @@ header.reset .menu-btn div {
   color: #959595;
   position: relative;
   white-space: nowrap;
+  display: block;
+  padding-bottom: 20px;
 }
 
 .section-awards .tab-outer #tabSwiper .link-tab li a:after {
@@ -5913,8 +5919,8 @@ header.reset .menu-btn div {
   background: #43695c;
   border-radius: 50%;
   position: absolute;
-  top: 172%;
   left: 50%;
+  bottom: -3px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -6098,7 +6104,6 @@ header.reset .menu-btn div {
 #news-page .section-hof .tab-outer #tabSwiper {
   overflow: visible;
   border-bottom: 1px solid #000;
-  padding-bottom: 20px;
 }
 
 #news-page .section-hof .tab-outer #tabSwiper .link-tab li {
@@ -6111,6 +6116,8 @@ header.reset .menu-btn div {
   color: #959595;
   position: relative;
   white-space: nowrap;
+  display: block;
+  padding-bottom: 20px;
 }
 
 #news-page .section-hof .tab-outer #tabSwiper .link-tab li a:after {
@@ -6121,8 +6128,8 @@ header.reset .menu-btn div {
   background: #43695c;
   border-radius: 50%;
   position: absolute;
-  top: 172%;
   left: 50%;
+  bottom: -3px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }

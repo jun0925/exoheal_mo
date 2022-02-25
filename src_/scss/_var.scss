@@ -293,7 +293,6 @@ $opacity10 : 1;
         #tabSwiper {
             overflow: visible;
             border-bottom: $border-black;
-            padding-bottom: 20px;
             
             .link-tab {
                 li {
@@ -305,6 +304,8 @@ $opacity10 : 1;
                         color: #959595;
                         position: relative;
                         white-space: nowrap;
+                        display: block;
+                        padding-bottom: 20px;
         
                         &:after {
                             display: block;
@@ -314,7 +315,7 @@ $opacity10 : 1;
                             background: $green;
                             border-radius: $circleRadius;
     
-                            @include position(absolute, 172%, 50%, null, null) {
+                            @include position(absolute, null, 50%, -3px, null) {
                                 transform: translateX(-50%);
                             }
                         }
