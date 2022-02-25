@@ -79,7 +79,7 @@ $ballTop: -65px;
 
         &.cont1 { 
             position: relative;
-            
+
             &:before {
                 content: " ";
                 display: block;
@@ -91,7 +91,6 @@ $ballTop: -65px;
                 background-position: center;
                 z-index: -1;
             }
-            background-attachment: fixed;
 
             h2 {
                 margin: 0 75px;
