@@ -2115,8 +2115,21 @@ header.reset .menu-btn div {
 }
 
 #brand01 .section-b01 .b01-cont.cont1 {
-  background-image: url(/img_/brand/brand01-1-bg.jpg);
   background-attachment: fixed;
+}
+
+#brand01 .section-b01 .b01-cont.cont1:before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img_/brand/brand01-1-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
 }
 
 #brand01 .section-b01 .b01-cont.cont1 h2 {
@@ -8359,6 +8372,7 @@ footer .awards-logo-swiper-wrap {
 
 footer .awards-logo-swiper-wrap .award-logo-swiper {
   padding: 23px 20px;
+  background: #fff;
 }
 
 footer .awards-logo-swiper-wrap .award-logo-swiper .swiper-wrapper {
