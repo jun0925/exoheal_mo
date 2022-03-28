@@ -189,6 +189,11 @@ header.reset .menu-btn div {
   font-weight: 600;
 }
 
+.nav-box .link-label-wrap {
+  font-size: 0;
+  margin: 0 45px 25px;
+}
+
 .nav-box .btn-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
