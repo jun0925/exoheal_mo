@@ -59,12 +59,13 @@ $(function () {
             disableOnInteraction: false,
         },
         loop: true,
+        loopedSlides: 4,
         breakpoints: {
             360: {
-                slidesPerView: 3.4,
+                slidesPerView: 3,
             },
             320: {
-                slidesPerView: 2.7
+                slidesPerView: 2.5,
             },
         },
     });
