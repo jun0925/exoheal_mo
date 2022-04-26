@@ -913,14 +913,15 @@ $ballTop: -65px;
     }
 
     .percentage-list {
-        display: flex;
+        display: grid;
+        grid-template-areas: ". .";
         flex-wrap: wrap;
         grid-gap: 30px 50px;
         justify-content: center;
-        margin: 0 60px;
+        margin: 0 70px;
 
         li {
-            width: 39%;
+            width: 100%;
         }
         p {
             text-align: center;

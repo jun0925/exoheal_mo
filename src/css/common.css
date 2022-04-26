@@ -3387,20 +3387,20 @@ header.reset .menu-btn div {
 }
 
 #brand06 .brand .percentage-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: ". .";
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   grid-gap: 30px 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 60px;
+  margin: 0 70px;
 }
 
 #brand06 .brand .percentage-list li {
-  width: 39%;
+  width: 100%;
 }
 
 #brand06 .brand .percentage-list p {
