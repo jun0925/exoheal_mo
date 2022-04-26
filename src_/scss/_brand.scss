@@ -762,6 +762,11 @@ $ballTop: -65px;
 
 /* brand06 */
 #brand06 .brand {
+
+    .cont-wrap2 {
+        margin-top: 100px;
+    }
+
     .link-tab-wrap {
         display: flex;
         justify-content: center;
@@ -817,6 +822,10 @@ $ballTop: -65px;
             }
     
             img {max-width: 183px;}
+
+            &.one-mark {
+                img {max-width: 90px;}
+            }
         }
     
         .permit-img-wrap {
@@ -889,14 +898,14 @@ $ballTop: -65px;
     }
 
     .percentage-list {
-        display: grid;
-        grid-template-areas: ". .";
+        display: flex;
+        flex-wrap: wrap;
         grid-gap: 30px 50px;
         justify-content: center;
-        margin: 0 70px;
+        margin: 0 65px;
 
         li {
-            width: 100%;
+            width: 41%;
         }
         p {
             text-align: center;
