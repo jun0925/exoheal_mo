@@ -3396,7 +3396,7 @@ header.reset .menu-btn div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 70px;
+  margin: 0 60px;
 }
 
 #brand06 .brand .percentage-list li {
