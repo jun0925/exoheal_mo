@@ -303,7 +303,8 @@ $opacity10 : 1;
         overflow: hidden;
         height: 40px;
     
-        #tabSwiper {
+        #tabSwiper,
+        .tab-swiper {
             overflow: visible;
             border-bottom: $border-black;
             

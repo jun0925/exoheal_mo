@@ -40,6 +40,8 @@ $ballTop: -65px;
 }
 
 .brand .content2-box {
+    #tabCont2 {display: none;}
+    
     .cont {
         display: none;
         opacity: 0;
@@ -303,20 +305,33 @@ $ballTop: -65px;
     }
 
     .content2-box {
-        .tit-box {
-            margin-bottom: 40px;
-            text-align: center;
-
-            h3 {
-                font-size: 2.4rem;
-                font-weight: $fw-light;
-                letter-spacing: 0;
-                margin-bottom: 15px;
-            }
-
-            p {
-                font-size: 1.5rem;
-                font-weight: $fw-light;
+        .link-tab-wrap {
+            display: flex;
+            justify-content: center;
+            border: $border-purple;
+            width: 80%;
+            margin: 0 auto 50px;
+            box-sizing: border-box;
+            height: 40px;
+            border-radius: 30px;
+    
+    
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.4rem;
+                color: $green;
+                width: 100%;
+                height: 100%;
+                border-radius: 30px;
+                letter-spacing: -0.02em;
+    
+                &.choice {
+                    color: $white;
+                    font-weight: $fw-bold;
+                    background: #80be41;
+                }
             }
         }
     }

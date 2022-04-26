@@ -12,8 +12,27 @@ $(function(){
     });
 
     // brand 02
-    var $brand02Tab = $("#tabSwiper a");
+    var $brand02Tab = $("#tabCont1 a");
     contActive($brand02Tab);
+
+    $(".b02-tab").on("click",function(){
+        $(this).addClass("choice");
+        $(".b02-tab").not($(this)).removeClass("choice");
+
+        switch($(this).index()){
+            case 0:
+                $("#tabCont2").stop().fadeOut(300,function(){
+                    $("#tabCont1").stop().fadeIn(300);
+                });
+                break;
+            
+            case 1:
+                $("#tabCont1").stop().fadeOut(300,function(){
+                    $("#tabCont2").stop().fadeIn(300);
+                });
+                break;
+        }
+    });
 
     var videoPopup = document.getElementById("videoPopup");
     var videoPopupBox = document.getElementById("videoPopupBox");
