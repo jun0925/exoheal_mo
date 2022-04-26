@@ -202,17 +202,17 @@ $(function () {
 
 
     //new section4 odometer 
-    $(window).on("scroll", function () {
+    /*$(window).on("scroll", function () {
         scrY = window.pageYOffset;
         var sec4PosTop = $(".new-section4").offset().top - 100;
         if (scrY >= sec4PosTop) {
             var odometer = document.querySelector(".new-section4 .odometer");
             odometer.innerHTML = "1,755,655";
         }
-    });
+    });*/
 
     //SCR EFFECT
-    scrEffect(".speech-box", "on");
+    //scrEffect(".speech-box", "on");
 
     function scrEffect(target, addClass, subTarget) {
         var target2Top = subTarget || target;
