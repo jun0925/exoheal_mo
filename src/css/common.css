@@ -3396,11 +3396,11 @@ header.reset .menu-btn div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 65px;
+  margin: 0 60px;
 }
 
 #brand06 .brand .percentage-list li {
-  width: 41%;
+  width: 39%;
 }
 
 #brand06 .brand .percentage-list p {
