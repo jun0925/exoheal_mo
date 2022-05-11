@@ -652,7 +652,8 @@ header.reset .menu-btn div {
 
 #main .section1 .swiper-container .swiper-slide {
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   height: 0;
   padding-bottom: calc(1100 / 750 * 100%);
 }
@@ -670,15 +671,15 @@ header.reset .menu-btn div {
 }
 
 #main .section1 .swiper-container .swiper-slide.main-slide4 {
-  background-image: url("/img_/main-sl4.jpg");
+  background-image: url("https://images.unsplash.com/photo-1598452963314-b09f397a5c48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80");
 }
 
 #main .section1 .swiper-container .swiper-slide.main-slide5 {
-  background-image: url("/img_/main-sl5.jpg");
+  background-image: url("https://images.unsplash.com/photo-1624613533305-28d421d70875?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
 }
 
 #main .section1 .swiper-container .swiper-slide.main-slide6 {
-  background-image: url("/img_/main-sl6.jpg");
+  background-image: url("https://images.unsplash.com/photo-1591348278863-a8fb3887e2aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=817&q=80");
 }
 
 #main .section1 .swiper-container .swiper-slide .swiper-cont {
@@ -827,6 +828,7 @@ header.reset .menu-btn div {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  line-height: 1.1;
 }
 
 #main #productsSwiper .product-txt-box .product-description {
@@ -3640,6 +3642,7 @@ header.reset .menu-btn div {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  line-height: 1.1;
 }
 
 .section-pdt-list .product-txt-box .product-description {
@@ -4011,6 +4014,7 @@ header.reset .menu-btn div {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  line-height: 1.1;
 }
 
 #otherProductList .product-txt-box .product-description {
@@ -4767,6 +4771,7 @@ header.reset .menu-btn div {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  line-height: 1.1;
 }
 
 #skinTest .section-test .test-result-wrap #recommandProduct .product-txt-box .product-description {
@@ -5579,6 +5584,7 @@ header.reset .menu-btn div {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  line-height: 1.1;
 }
 
 #kobeas .kobeas-member-section #recommandProduct .product-txt-box .product-description {
