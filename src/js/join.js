@@ -5,7 +5,7 @@ $(function(){
 
     //join 01 leader swiper
     var leaderSwiper = new Swiper("#leaderSwiper",{
-        slidesPerView: "auto",
+        slidesPerView: 2,
         spaceBetween: 20,
     });
 });
