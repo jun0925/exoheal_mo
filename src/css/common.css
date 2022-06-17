@@ -1694,7 +1694,7 @@ header.reset .menu-btn div { background: #000; }
 
 .spt#supporters03 .celeb-main .celeb-txt-box { margin-top: 33px; }
 
-.spt#supporters03 .celeb-main .celeb-txt-box p { text-align: center; font-size: 1.5rem; font-weight: 300; line-height: 1.4; }
+.spt#supporters03 .celeb-main .celeb-txt-box p { text-align: center; font-size: 1.5rem; font-weight: 300; line-height: 1.4; word-break: keep-all; }
 
 /* ...spt03 */
 /** ..._supporters.scss **/
