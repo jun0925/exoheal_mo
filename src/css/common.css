@@ -4494,7 +4494,7 @@ header.reset .menu-btn div {
 /* ...spt 01 */
 /* spt 02 */
 .spt#supporters02 .influ-main {
-  background: url(/img_/spt/spt02/spt2-bg.jpg) no-repeat;
+  background: url(/img_/spt/spt02/spt2-bg.jpg?ver=220823) no-repeat;
   background-size: cover;
   height: 350px;
 }
@@ -4595,7 +4595,7 @@ header.reset .menu-btn div {
   margin-bottom: 55px;
 }
 .spt#supporters03 .celeb-main {
-  background: url(/img_/spt/spt03/spt3-bg.jpg) no-repeat;
+  background: url(/img_/spt/spt03/spt3-bg.jpg?ver=220823) no-repeat;
   height: 395px;
   background-size: cover;
 }
