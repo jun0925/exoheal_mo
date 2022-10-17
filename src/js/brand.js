@@ -34,6 +34,10 @@ $(function(){
         }
     });
 
+    // brand 02
+    var $brand03Tab = $(".b03-tab");
+    contActive($brand03Tab);
+
     var videoPopup = document.getElementById("videoPopup");
     var videoPopupBox = document.getElementById("videoPopupBox");
     var iframeCont = document.querySelector(".video-popup-box > .video-wrap > iframe");
