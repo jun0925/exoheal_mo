@@ -600,8 +600,9 @@ header.reset .menu-btn div {
 }
 #main .section1 .swiper-container .swiper-slide .swiper-cont-name {
   font-size: 3.5rem;
-  line-height: 1.05;
+  line-height: 1.1;
   margin-bottom: 26px;
+  word-break: keep-all;
 }
 #main .section1 .swiper-container .swiper-slide .swiper-cont-name span {
   font-size: 2rem;

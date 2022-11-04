@@ -25,8 +25,9 @@
 
                 &-name {
                     font-size: 3.5rem;
-                    line-height: 1.05;
+                    line-height: 1.1;
                     margin-bottom: 26px;
+                    word-break: keep-all;
 
                     span {
                         font-size: 2rem;
