@@ -2,7 +2,7 @@ $(function(){
 
     //서브 비디오 js
     const subVideoSwiper = new Swiper("#partyVideoSwiper",{
-        slidesPerView: 4.2,
+        slidesPerView: 4.3,
         spaceBetween: 5,
     });
 
@@ -16,7 +16,7 @@ $(function(){
 
     // 파티 갤러리 관련 js
     const galTabSwiper = new Swiper ("#partyGalTabSwiper",{
-        slidesPerView: 2,
+        slidesPerView: 2.4,
         centeredSlides: true,
         navigation: {
             nextEl: "#partyGalTabSwiper .swiper-button-next",
@@ -37,7 +37,7 @@ $(function(){
         $(this).next(".gallery-thumb").attr("id",`galleryThumb-${index}`);
         
         let gallerySubSwiper = new Swiper(`#galleryThumb-${index}`,{
-            slidesPerView: 3.2,
+            slidesPerView: 3.23,
             spaceBetween: 5,
             speed: 1000,
             observer: true,
@@ -66,7 +66,7 @@ $(function(){
 
     //시상식 관련 js
     const partyAwardsTab = new Swiper("#partyAwardsTabSwiper",{
-        slidesPerView: 2,
+        slidesPerView: 2.4,
         centeredSlides: true,
         navigation: {
             nextEl: "#partyAwardsTabSwiper .swiper-button-next",
