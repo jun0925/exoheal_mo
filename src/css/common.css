@@ -2909,7 +2909,6 @@ header.reset .menu-btn div {
   font-weight: 300;
   line-height: 1.28;
   margin-top: 10px;
-  word-break: keep-all;
 }
 #brand06 .brand .percentage-list p.yel {
   color: #b99156;
