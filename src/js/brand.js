@@ -34,9 +34,13 @@ $(function(){
         }
     });
 
-    // brand 02
+    // brand 03
     var $brand03Tab = $(".b03-tab");
     contActive($brand03Tab);
+
+    // brand 06
+    var $brand06Tab = $(".b06-tab");
+    contActive($brand06Tab);
 
     var videoPopup = document.getElementById("videoPopup");
     var videoPopupBox = document.getElementById("videoPopupBox");

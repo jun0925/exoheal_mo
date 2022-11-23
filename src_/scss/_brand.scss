@@ -791,7 +791,11 @@ $ballTop: -65px;
                 line-height: 1.3;
             }
     
-            img {max-width: 183px;}
+            img {
+                max-width: 183px;
+                
+                &.one-mark {max-width: 91px;}
+            }
 
             &.one-mark {
                 img {max-width: 90px;}
@@ -806,7 +810,7 @@ $ballTop: -65px;
     
             .permit-mark {
                 width: 12px;
-                @include position($l:8.5%, $b: -39px);
+                @include position($l:9.5%, $b: -39px);
             }
         }
     
@@ -870,7 +874,7 @@ $ballTop: -65px;
     .percentage-list {
         display: grid;
         grid-template-areas: ". .";
-        flex-wrap: wrap;
+        grid-auto-columns: 1fr;
         grid-gap: 30px 50px;
         justify-content: center;
         margin: 0 60px;
@@ -884,6 +888,7 @@ $ballTop: -65px;
             font-weight: $fw-light;
             line-height: 1.28;
             margin-top: 10px;
+            word-break: keep-all;
 
             &.yel {
                 color: #b99156;
