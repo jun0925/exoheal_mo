@@ -32,6 +32,7 @@
 
     .wtc-cont-wrap {
         .wtc-cont {
+            display: none;
             opacity: 0;
             transform: translateY(50px);
             transition: 0.3s;
@@ -42,7 +43,6 @@
             }
 
             &#seoul {display: block;}
-            &#busan {display: none;}
         }
                 
         .wtc-info-wrap {
