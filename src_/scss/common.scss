@@ -429,6 +429,7 @@ header {
         .video-wrap,
         .img-wrap {
             border: 3px solid $green;
+            font-size: 0;
             
             video,img {
                 width: 100%;

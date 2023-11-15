@@ -45,10 +45,10 @@
 .party-banner-section .party-video-wrap video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   -o-object-fit: cover;
-  object-position: center;
+     object-fit: cover;
   -o-object-position: center;
+     object-position: center;
 }
 
 .party-content1-section {
@@ -56,8 +56,8 @@
   padding: 60px 0 40px;
 }
 .party-content1-section .party-txt-box {
-  margin-bottom: 60px;
   text-align: center;
+  margin-bottom: 60px;
 }
 .party-content1-section .party-tit-wrap {
   margin-bottom: 27px;
@@ -74,7 +74,7 @@
 }
 .party-content1-section .party-main-tit {
   font-size: 3rem;
-  color: #43695c;
+  color: #3e215d;
   line-height: 1.15;
 }
 .party-content1-section .party-desc-wrap {
@@ -102,11 +102,9 @@
   width: 100%;
   height: 100%;
 }
-
-.party-content1-section #partyVideoSwiper {
+.party-content1-section .sub-video-box {
   padding-left: 25px;
 }
-
 .party-content1-section .sub-video-thumb {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -117,7 +115,7 @@
   position: relative;
 }
 .party-content1-section .sub-video-thumb.play {
-  border: 2px solid #43695c;
+  border: 2px solid #3e215d;
 }
 .party-content1-section .sub-video-thumb.play::after, .party-content1-section .sub-video-thumb.play::before {
   display: none;
@@ -243,7 +241,6 @@
   background-repeat: no-repeat;
   width: 100%;
   padding-bottom: 66.6666666667%;
-  position: relative;
 }
 .party-content1-section .party-gal-cont-box .gallery-thumb {
   -webkit-box-sizing: border-box;
@@ -258,19 +255,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.party-content1-section .party-gal-cont-box .swiper-container .swiper-slide img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  -o-object-fit: cover;
-  object-position: center;
-  -o-object-position: center;
-}
-
 .party-content1-section .party-gal-cont-box #galleryMain-0 .gal-cont0,
 .party-content1-section .party-gal-cont-box #galleryThumb-0 .gal-cont0 {
   background-image: url("/img_/party/gallery0/0.jpg");
@@ -1433,12 +1417,12 @@
 .party-content2-section #partyAwardsTabSwiper .swiper-button-next {
   background: none;
   width: 50px;
-  height: 32px;
+  height: 43px;
   top: 55%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   margin-top: -6px;
-  opacity: 1;
+  opacity: 0.6;
 }
 .party-content2-section #partyAwardsTabSwiper .swiper-button-prev img,
 .party-content2-section #partyAwardsTabSwiper .swiper-button-next img {
@@ -1489,7 +1473,6 @@
 }
 
 .h-exo-section {
-  display: none;
   background-image: url("/img_/party/h-exo/h-exo-bg.jpg");
   background-size: cover;
   padding: 60px 0;

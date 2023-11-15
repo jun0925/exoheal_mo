@@ -553,6 +553,7 @@ header.reset .menu-btn div {
 .img-popup-box .video-wrap,
 .img-popup-box .img-wrap {
   border: 3px solid #43695c;
+  font-size: 0;
 }
 .video-popup-box .video-wrap video, .video-popup-box .video-wrap img,
 .video-popup-box .img-wrap video,
@@ -5474,8 +5475,16 @@ header.reset .menu-btn div {
 }
 .section-awards .awards-list > li .award-info .awards-detail-swiper .swiper-slide {
   max-width: 120px;
-  max-height: 91px;
+  height: 91px;
   overflow: hidden;
+}
+.section-awards .awards-list > li .award-info .awards-detail-swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 .section-awards .awards-list > li .award-info .awards-detail-swiper.no-swiper .swiper-wrapper {
   -webkit-box-pack: center;
@@ -5512,38 +5521,6 @@ header.reset .menu-btn div {
           transform: translateY(-50%);
   font-size: 2.25rem;
   font-weight: 300;
-}
-.section-awards .circle-btn {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #fff;
-  border-radius: 50%;
-  background: #43695c;
-  width: 55px;
-  height: 55px;
-  margin: 0 auto 60px;
-}
-.section-awards .circle-btn img {
-  max-width: 13px;
-}
-.section-awards .circle-btn span {
-  display: block;
-  font-size: 7px;
-  letter-spacing: 0;
-  margin-top: 4px;
 }
 
 /** ..._awards.scss **/
